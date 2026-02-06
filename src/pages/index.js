@@ -6,7 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-
+import Comments from '../components/Comments';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -38,6 +38,12 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+	<div className="container">
+        <Comments 
+          pageId="home-teste" 
+          pageTitle="Teste de Comentários Home" 
+        />
+      </div>
     </Layout>
   );
 }
