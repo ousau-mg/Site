@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Teste de Site para documentação SEOS',
-  tagline: 'Dinosaurs are cool',
+  title: 'Documentação SEOS',
+  tagline: '------',
   favicon: 'img/LogoOge.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -93,7 +93,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Ouvidoria de Saúde',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {

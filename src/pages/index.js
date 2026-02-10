@@ -3,10 +3,17 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
+import VideoPlayer from '@site/src/components/VideoPlayer';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+<<<<<<< Updated upstream
 import Comments from '../components/Comments';
+=======
+
+// 1. Troque a importação do Comments pelo GiscusComments
+import GiscusComments from '../components/GiscusComments'; 
+
+>>>>>>> Stashed changes
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -20,7 +27,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Teste de alteração de txt ⏱️
+            Ouvidoria de Saúde 📢
           </Link>
         </div>
       </div>
@@ -38,11 +45,24 @@ export default function Home() {
       <main>
         <HomepageFeatures />
       </main>
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	<div className="container">
         <Comments 
           pageId="home-teste" 
           pageTitle="Teste de Comentários Home" 
         />
+=======
+=======
+>>>>>>> Stashed changes
+       <VideoPlayer url="https://www.youtube.com/watch?v=7PBGVKmX2NQ" />
+      {/* 2. Substitua o bloco do Comments pelo GiscusComments */}
+      <div className="container">
+        <GiscusComments />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       </div>
     </Layout>
   );

@@ -2,9 +2,16 @@
 sidebar_position: 1
 ---
 
-# Documentação Ousau
+# Ouvidoria de Saúde
 
-teste de alteração de texto **Testando o Docusauros**.
+
+A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo nas questões relacionadas aos serviços prestados pelo Sistema Único de Saúde (SUS).
+
+É responsável por receber, registrar e enviar resposta às reclamações, denúncias, solicitações, sugestões e elogios dos cidadãos sobre consultas, exames, medicamentos, cirurgias, vacinação, vigilância sanitária e epidemiológica, dentre outros assuntos.
+
+Acompanha o tratamento da manifestação até a decisão administrativa final das demandas dos usuários.
+
+Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, levando atendimento presencial à população, aproximando os usuários dos serviços das áreas de atuação desta Ouvidoria.
 
 ## Getting Started
 
