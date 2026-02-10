@@ -13,6 +13,25 @@ Acompanha o tratamento da manifestação até a decisão administrativa final da
 
 Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, levando atendimento presencial à população, aproximando os usuários dos serviços das áreas de atuação desta Ouvidoria.
 
+[Saiba as informações sobre o certificado Farmácia Cidadã!](https://www.ouvidoriageral.mg.gov.br/farmacia-cidada)
+
+[Saiba o que é uma Ouvidoria Municipal de Saúde!!](/img/o-que-e-ouvidoria.pdf)
+
+[saiba o que faz uma Ouvidoria Municipal de Saúde!](https://www.ouvidoriageral.mg.gov.br/ouvidorias-tematicas/ouvidoria-de-saude)
+
+[Saiba por que implantar uma Ouvidoria Municipal de Saúde!](/img/por-que-implantar.pdf)
+
+[Veja os 10 passos para criar a Ouvidoria de Saúde no seu município!](/img/10_passos.pdf)
+
+[Saiba as dicas para expandir a atuação das Ouvidorias Municipais de Saúde do Seos/MG!](/img/Dicas_para_expandir.pdf)
+
+[Acesse a Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS](/img/Cartilha-SEOS.pdf)
+
+# Registre sua manifestação
+
+[Registre aqui 🚨 !!!](https://ouvidoria.prodemge.gov.br/mgouv-bpms-frontend/br/gov/prodemge/visao/mgouv/AtividadeRegistrarManifestacaoPublica.zul?unidade=10100414&tipo=simplifique)
+
+
 ## Getting Started
 
 Get started by **creating a new site**.
