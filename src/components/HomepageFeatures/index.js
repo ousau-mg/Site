@@ -4,42 +4,49 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Por que Manifestar ?',
+    Svg: require('@site/static/img/Duvida.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Sua voz é fundamental para a melhoria dos serviços públicos. Ao manifestar, você ajuda a Ouvidoria de Saúde a identificar falhas e propor soluções que beneficiam toda a sociedade.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/Igreja.svg').default,
+    title: 'O que aconteceu ?',
+    Svg: require('@site/static/img/Aconteceu.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Reflita sobre o que aconteceu. Trata-se de uma dificuldade em uma consulta, falta de um medicamento, dúvidas sobre vacinação ou elogio a um atendimento? Ter clareza sobre o fato ajuda no processamento da sua demanda.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Manifestar',
+    Svg: require('@site/static/img/RegistreAqui.svg').default,
+    link: 'https://ouvidor.saude.gov.br/public/form-web/registrar',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Agora que você já sabe a importância e identificou o ocorrido, é hora de oficializar. 
+        Clique na imagem para ser redirecionado ao sistema oficial da Prodemge.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {/* Se existir um link, envolvemos o Svg com a tag <a> */}
+        {link ? (
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            <Svg className={styles.featureSvg} role="img" style={{ cursor: 'pointer' }} />
+          </a>
+        ) : (
+          <Svg className={styles.featureSvg} role="img" />
+        )}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
