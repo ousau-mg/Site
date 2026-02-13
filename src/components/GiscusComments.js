@@ -6,19 +6,24 @@ export default function GiscusComments() {
   const { colorMode } = useColorMode(); // Pega o tema (claro/escuro) do Docusaurus
 
   return (
-    <div style={{ marginTop: '2rem' }}>
+    <div style={{ 
+      marginTop: '3rem', 
+      marginBottom: '3rem', 
+      position: 'relative', 
+      zIndex: 1 // Garante que ele receba o foco para digitação
+    }}>
       <Giscus
-        repo="GabrielAthaidePawlowski/documentacao-osau"
-        repoId="COLE_AQUI_O_SEU_REPO_ID" // Pegue no giscus.app
+        repo="ousau-mg/Site" // Configuração para o repositório da OSAU
+        repoId="R_kgDORPr6PQ"
         category="Announcements"
-        categoryId="COLE_AQUI_O_SEU_CATEGORY_ID" // Pegue no giscus.app
-        mapping="pathname" // Vincula o comentário ao caminho da página
+        categoryId="DIC_kwDORPr6Pc4C2YMJ"
+        mapping="pathname"
         strict="0"
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="top"
-        theme={colorMode === 'dark' ? 'dark' : 'light'} // Sincroniza o tema
-        lang="pt" // Deixa a interface em Português
+        theme={colorMode === 'dark' ? 'dark' : 'light'} // Sincroniza com o Docusaurus
+        lang="pt"
       />
     </div>
   );
