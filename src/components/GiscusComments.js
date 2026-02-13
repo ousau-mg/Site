@@ -8,7 +8,7 @@ export default function GiscusComments() {
   return (
     <div style={{ marginTop: '2rem' }}>
       <Giscus
-        repo="GabrielAthaidePawlowski/documentacao-osau"
+        repo="ousau-mg/Site"
         repoId="COLE_AQUI_O_SEU_REPO_ID" // Pegue no giscus.app
         category="Announcements"
         categoryId="COLE_AQUI_O_SEU_CATEGORY_ID" // Pegue no giscus.app
