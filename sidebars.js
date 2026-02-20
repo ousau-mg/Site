@@ -21,12 +21,18 @@ const sidebars = {
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
-    'intro',
-    'hello',
+    'Ouvidoria de Saúde',
+    'Menu',
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      label: 'Menu',
+      items: ['Menu/Contexto'],
+    },
+    'Sistema OuvidorSUS',
+    {
+      type: 'category',
+      label: 'Sistema OuvidorSUS',
+      items: ['Sistema OuvidorSUS/Adesão e inclusão'],
     },
   ],
    */
