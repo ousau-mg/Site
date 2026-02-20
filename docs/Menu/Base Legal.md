@@ -4,54 +4,28 @@ sidebar_position: 2
 
 # Base Legal
 
-Documents are **groups of pages** connected through:
+## Controle social e proteção ao denunciante
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+- [Lei 13.460, de 26 de junho de 2017](https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2017/Lei/L13460.htm)
 
-## Create your first Doc
+_Dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública._
 
-Create a Markdown file at `docs/hello.md`:
+- [Decreto 47.529, de 12 de novembro de 2018](https://www.almg.gov.br/legislacao-mineira/DEC/47529/2018/)
 
-```md title="docs/hello.md"
-# Hello
+_Regulamenta os capítulos III, IV e VI da Lei Federal nº 13.460, de 26 de junho de 2017, que dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública, no âmbito do Poder Executivo Estadual e institui o Fórum Permanente de Ouvidorias do Poder Executivo Estadual._
 
-This is my **first Docusaurus document**!
-```
+- [Decreto nº 49.053, de 11 de junho de 2025](https://www.almg.gov.br/legislacao-mineira/DEC/49053/2025/)
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+_Dispõe sobre participação, proteção e defesa dos direitos do usuário dos serviços públicos da administração pública, no âmbito do Poder Executivo estadual._
 
-## Configure the Sidebar
+- [Decreto 48.582, de 3 de março de 2023](https://www.almg.gov.br/legislacao-mineira/DEC/48582/2023/)
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+_Dispõe sobre procedimentos e medidas de proteção à identidade do denunciante de ilícito ou de irregularidade praticados contra órgãos e entidades da Administração Pública direta, autárquica e fundacional do Poder Executivo._
 
-Add metadata to customize the sidebar label and position:
+- [Resolução Conjunta OGE/CGE n°01, de 13 de agosto de 2025](\img\Resolucao-conjunta-OGE.CGE-n.01.2025.pdf)
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
+_Dispõe sobre procedimentos e medidas de proteção à identidade do denunciante de ilícito ou de irregularidade praticados contra órgãos e entidades da Administração Pública direta, autárquica e fundacional do Poder Executivo._
 
-# Hello
 
-This is my **first Docusaurus document**!
-```
+## Legislação infra SUS (diretamente aplicável)
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
-
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```

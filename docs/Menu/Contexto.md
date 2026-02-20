@@ -4,40 +4,19 @@ sidebar_position: 1
 
 # Contexto
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo nas questões relacionadas aos serviços prestados pelo Sistema Único de Saúde (SUS).
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+É responsável por receber, registrar e enviar resposta às reclamações, denúncias, solicitações, sugestões e elogios dos cidadãos sobre consultas, exames, medicamentos, cirurgias, vacinação, vigilância sanitária e epidemiológica, dentre outros assuntos.
 
-## Create your first React Page
+Acompanha o tratamento da manifestação até a decisão administrativa final das demandas dos usuários.
 
-Create a file at `src/pages/my-react-page.js`:
+Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, levando atendimento presencial à população, aproximando os usuários dos serviços das áreas de atuação desta Ouvidoria.
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+[➡ Acesse a Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS](/img/Cartilha-SEOS.pdf)
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+## SEOS
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
+- [Deliberação CIB-SUS/MG nº 2.471/2017 e Resolução Conjunta SES/OGE nº 215/2017](https://portal-antigo.saude.mg.gov.br/images/documentos/Del%202471%20-%20OGE%20-%20Del%20Seos%20-%20CIB-MG%2003-2017%20-%20Aprovada%20na%20CT.pdf): _Aprova a criação e organização do Sistema Estadual de Ouvidorias do SUS de Minas Gerais (Seos/MG), e dá outras providências._
 
-## Create your first Markdown Page
+- [Resolução Conjunta SES/OGE/Nº 498, de 26 de setembro de 2025](https://portal-antigo.saude.mg.gov.br/images/documentos/RESOLU%C3%87%C3%83O%20CONJUNTA%20SES%20498.pdf): _Dispõe sobre as diretrizes de segurança da informação no âmbito do Sistema Estadual de Ouvidorias do SUS de Minas Gerais (Seos/MG)._
 
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).

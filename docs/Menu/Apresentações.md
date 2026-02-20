@@ -4,20 +4,18 @@ sidebar_position: 6
 
 # Apresentações
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+## 2026
 
-Docusaurus has **much more to offer**!
+- [Reunião Gerentes Regionais](\img\120226_ReuniãoDirigentesSES.pdf)
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+## 2025
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+- [Encontro Gerencial da SES](\img\021225_reuniao_dirigentes_SES.pdf)
 
-## What's next?
+- [Encontro Nacional Ouvidorias SUS](\img\)
 
-- Read the [official documentation](https://docusaurus.io/)
-- Modify your site configuration with [`docusaurus.config.js`](https://docusaurus.io/docs/api/docusaurus-config)
-- Add navbar and footer items with [`themeConfig`](https://docusaurus.io/docs/api/themes/configuration)
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+-[Dialogando com o cidadão](\img\apresentação-dialogando_com_cidadão_Laura_081225.pdf)
+
+-[Geral para ouvidorias implantadas](\img\141125_capacitacao_geralsensibilização_ouvidorias_implantadas.pdf): _Apresentação geral Seos/MG mais voltada para quem já tem ouvidoria_
+
+-[Sensibilização para local que ainda não aderiu aos sistemas de ouvidoria](\img\131125_capacitacao_geral.pdf): _Apresentação geral Seos/MG mais voltada para quem não tem ouvidoria_

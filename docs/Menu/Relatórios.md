@@ -4,28 +4,25 @@ sidebar_position: 5
 
 # Relatórios
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+##  Quadrimestrais: 
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+- [2025_3]:
+    - [SES](\img\Relatório-OUSAU-4o-trim_25_SES.pdf)
+    - [FHEMIG](\img\Relatório-OUSAU-4trim_25-FHEMIG.pdf) 
+    - [HEMOMINAS](\img\Relatório-OUSAU-4o-trim_25-HEMOMINAS.pdf)
 
-## Build your site
+ (collapsible abaixo)
+- [2025_2]
+- [2025_1]
 
-Build your site **for production**:
+## Programação Anual de Saúde
 
-```bash
-npm run build
-```
+    - RDQA 
 
-The static files are generated in the `build` folder.
+## Síntese
 
-## Deploy your site
+- Nossas metas
 
-Test your production build locally:
+- Nossos principais avanços no último ano
 
-```bash
-npm run serve
-```
-
-The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
-
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+- Objetivos para o próximo ano
