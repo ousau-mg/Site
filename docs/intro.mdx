@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+import InfoCard from '@site/src/components/InfoCard';
+
 # Ouvidoria de Saúde
 
 A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo nas questões relacionadas aos serviços prestados pelo Sistema Único de Saúde (SUS).
@@ -12,43 +14,39 @@ Acompanha o tratamento da manifestação até a decisão administrativa final da
 
 Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, levando atendimento presencial à população, aproximando os usuários dos serviços das áreas de atuação desta Ouvidoria.
 
-````
-#- <p class="text-larger" aqui o ícone __Tutoriais__</p>
-#
-#    ---
-#
-#    Como acessar e utilizar o sistema OuvidorSUS.
-#
-#    [Acesse os vídeos](Sistema OuvidorSUS/Operações e tutoriais.md)
+<br/>
 
-#- <p class="text-larger" aqui o ícone __Documentos__</p>
-#
-#    ---
-#
-#    Cartilhas, Notas Técnicas e outros materiais de interesse para ouvidorias de saúde.
-#
-#    [Veja aqui](Menu/Documentos.md)
+<InfoCard 
+  iconName="mdi:account-school"
+  title="Tutoriais"
+  description="Como acesso e utilizar o sistema OuvidorSUS."
+  link="./Sistema OuvidorSUS/Operações e tutoriais"
+  linkText="Acesse os vídeos"
+/>
 
-#- <p class="text-larger" aqui o ícone __Relatórios__</p>
-#
-#    ---
-#
-#    Acompanhe o quantitativo de manifestações, por status e instâncias do SEOS, a cada quadrimestre
-#
-#    [Relatórios](Menu/Relatórios.md)
-````
+<InfoCard 
+  iconName="mdi:file-document-outline"
+  title="Documentos"
+  description="Cartilhas, Notas Técnicas e outros materiais de interesse para ouvidorias de saúde."
+  link="./Menu/Documentos"
+  linkText="Veja aqui"
+/>
 
-- ref. ícones https://automatiza-mg.github.io/automatizacoes/#conheca-mais-sobre-o-projeto
-
-- ref. ícones: https://automatiza-mg.github.io/handbook/ 
+<InfoCard 
+  iconName="mdi:chart-bar"
+  title="Relatórios"
+  description="Acompanhe o quantitativo de manifestações, por status e instâncias do SEOS, a cada quadrimestre."
+  link="./Menu/Relatórios"
+  linkText="Relatórios"
+/>
 ---
 
 # Registre sua manifestação
 
-<br />
+<br/>
 
 <div style={{ marginBottom: '30px', display: 'flex', justifyContent: 'center' }}>
-  <a href="https://ouvidor.saude.gov.br/public/form-web/registrar" target="_blank">
+  <a href="https://ouvidor.saude.gov.br/public/form-web/registrar" target="_blank" rel="noopener noreferrer">
     <img src="/img/Registre_Aqui.png" alt="Registre aqui" width="400" />
   </a>
 </div>
@@ -56,9 +54,6 @@ Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, 
 ---
 
 # Observatório OGE/MG
-
-<br />
-
 
 <div style={{ 
   marginTop: '20px', 
@@ -74,7 +69,7 @@ Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, 
     width="100%" 
     height="900" 
     title="OGE - Observatório" 
-    frameBorder="0" 
+    style={{ border: 0 }}
     allowFullScreen={true}>
   </iframe>
 </div>
