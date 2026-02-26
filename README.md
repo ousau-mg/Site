@@ -1,41 +1,65 @@
-# Website
+# 🚀 Instalação e Configuração
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Para a instalação e o funcionamento do site via **Docusaurus**, serão necessários os seguintes pré-requisitos:
 
-## Installation
+1.  **Git**: [Download e Instalação](https://git-scm.com/install/windows)
+2.  **Node.js**: [Download e Instalação](https://nodejs.org/pt-br/download) (Recomendado: Versão LTS)
 
+### Passo a passo para novos projetos
+Caso esteja iniciando o Docusaurus do zero via Git Bash:
 ```bash
-yarn
+npx create-docusaurus@latest my-website classic --typescript
 ```
 
-## Local Development
-
+instalação de todas as dependencias utilizadas pelo site:
 ```bash
-yarn start
+npm install --legacy-peer-deps
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## 🛠️ Funcionalidades
+O site apresenta as seguintes integrações e componentes:
 
-## Build
+📊 Apresentação de BI (Power BI)
+O dashboard é exibido através de um componente de iframe integrado:
 
-```bash
-yarn build
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
+<iframe 
+    src="https://app.powerbi.com/view?r=eyJrIjoiYWU1MTU5NWEtZTY0MS00MzQyLWI3Y2YtNGY4YzhmNTAzMTMyIiwidCI6IjUzMzU2OTg2LTY4OGMtNGNiOS1hZTNhLWU4ZGJmNjkxMWE0MyJ9&pageName=a1b82749ce7d052c043e" 
+    width="100%" 
+    height="900" 
+    title="OGE - Observatório" 
+    style={{ border: 0 }}
+    allowFullScreen={true}>
+  </iframe>
 ```
+🎥 Player de Vídeo
+Componente para exibição de vídeos externos (Ex: YouTube):
 
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
 ```
+<div className="container">
+        <VideoPlayer url="https://www.youtube.com/watch?v=7PBGVKmX2NQ" />
+        </VideoPlayer>
+  <div>
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+```
+💬 Sistema de Comentários (Giscus)
+Utilizamos o Giscus para gestão de comentários via GitHub Discussions.
+
+Requisito: O repositório deve ser público.
+
+Configuração de IDs: Para que os comentários funcionem, o componente em src/components/GisusComments deve estar configurado com os IDs corretos do repositório atual:
+
+data-repo-id: ID único do seu repositório no GitHub.
+
+data-category-id: ID da categoria de Discussions onde as mensagens serão salvas.
+
+Login: O usuário precisa estar logado no GitHub para comentar.
+
+Localização do Código: \src\components\GisusComments.
+
+✨ Ícones (Iconify)
+Utilizamos a dependência Iconify para a renderização de ícones.
+
+Importante: Certifique-se de que o comando npm install --legacy-peer-deps foi executado com sucesso. O parâmetro --legacy-peer-deps é essencial para evitar conflitos de versões de dependências do React e garantir que os ícones carreguem corretamente no ambiente local.
+
+
