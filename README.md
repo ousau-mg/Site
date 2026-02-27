@@ -64,4 +64,24 @@ Utilizamos a dependência Iconify para a renderização de ícones.
 
 Importante: Certifique-se de que o comando npm install --legacy-peer-deps foi executado com sucesso. O parâmetro --legacy-peer-deps é essencial para evitar conflitos de versões de dependências do React e garantir que os ícones carreguem corretamente no ambiente local.
 
+📝 Sistema de Feedback (Tally)
+Implementamos um widget flutuante de Opinião que permite coletar avaliações rápidas (Like/Dislike) e sugestões detalhadas sem tirar o usuário da página atual.
+
+Como funciona a integração:
+Componente React: Localizado em src/components/Feedback/index.js.
+
+Trigger de Popup: O código utiliza o Tally.openPopup para abrir o formulário em modo popover (janela lateral).
+
+Script Externo: O componente injeta automaticamente o script https://tally.so/widgets/embed.js para garantir o funcionamento do widget.
+
+Como receber e gerir os comentários:
+Para que você (ou o novo administrador) receba as sugestões, é necessário configurar o formulário no painel do Tally:
+
+Acesso aos Dados: Faça login em Tally.so. No dashboard, localize o formulário pelo ID (ex: w480k5). Acesse a aba "Submissions" para visualizar a lista de feedbacks recebidos.
+
+Configuração de Notificações:
+
+Dentro das configurações do formulário no Tally, vá em Settings > Notifications.
+
+Ative as "Email notifications" para receber um aviso em tempo real sempre que alguém enviar uma sugestão.
 
