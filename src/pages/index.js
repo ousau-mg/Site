@@ -6,7 +6,8 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import VideoPlayer from '@site/src/components/VideoPlayer';
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-import GiscusComments from '../components/GiscusComments'; 
+import GiscusComments from '../components/GiscusComments';
+import Feedback from '@site/src/components/Feedback';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -42,6 +43,12 @@ export default function Home() {
       
       <div className="container">
         <VideoPlayer url="https://www.youtube.com/watch?v=7PBGVKmX2NQ" />
+        
+        {/* Espaçamento extra para não colar no vídeo */}
+        <div style={{margin: '4rem 0'}}>
+           <Feedback />
+        </div>
+
         <GiscusComments />
       </div>
     </Layout>
