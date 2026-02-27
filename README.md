@@ -13,7 +13,8 @@ npm install --legacy-peer-deps
 ```
 
 4. instalação do módulo de ícones do Docusaurus
-````bash
+
+```bash
 npm install @iconify/react --legacy-peer-deps
 ```
 
