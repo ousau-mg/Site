@@ -4,52 +4,27 @@ sidebar_position: 1
 
 # Adesão e inclusão
 
-Docusaurus can manage multiple versions of your docs.
+Para fazer a adesão, troca de perfil ou outras movimentações, atentar para os documentos abaixo.
 
-## Create a docs version
+## Adesão
 
-Release a version 1.0 of your project:
+````- [Termo de Adesão](javascript:void(0);).
+{#download-button .card path="img/adesaoOuvidorSUS.docx" fileName="adesaoOuvidorSUS.docx"}
+````
+## Troca de Ouvidor
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+- Modelo Ofício
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+## Segundo perfil de ouvidor
 
-Your docs now have 2 versions:
+- Modelo Ofício
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+## Reativação de Acesso
 
-## Add a Version Dropdown
+- Modelo Ofício
 
-To navigate seamlessly across versions, add a version dropdown.
+# Termo Confidencialidade OUSAU MG
 
-Modify the `docusaurus.config.js` file:
+- []()
 
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
 
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`

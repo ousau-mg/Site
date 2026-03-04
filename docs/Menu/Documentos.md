@@ -10,7 +10,7 @@ sidebar_position: 3
 
 [➡ Saiba o que é uma Ouvidoria Municipal de Saúde!!](/img/o-que-e-ouvidoria.pdf)
 
-[➡ Saiba o que faz uma Ouvidoria Municipal de Saúde!](https://www.ouvidoriageral.mg.gov.br/ouvidorias-tematicas/ouvidoria-de-saude)
+[➡ Saiba o que faz uma Ouvidoria Municipal de Saúde!](https://www.ouvidoriageral.mg.gov.br/ouvidorias-tematicas/ouvidoria-de-saude) `CORRIGIR - ONDE ESTÁ?`
 
 [➡ Saiba por que implantar uma Ouvidoria Municipal de Saúde!](/img/por-que-implantar.pdf)
 
