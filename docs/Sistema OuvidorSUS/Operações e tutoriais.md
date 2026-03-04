@@ -4,85 +4,38 @@ sidebar_position: 2
 
 # Operações e tutoriais
 
-Let's translate `docs/intro.md` to French.
+Como usar as funcinoalidades do sistema OuvidorSUS.
 
-## Configure i18n
+## Manuais Ministério da Saúde
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+- [Manual perfis Ouvidor, Técnico e atendente;2021](https://drive.google.com/file/d/1gZyCP499Mf8LhWHtJVVesuyPtfD6peJn/view)
 
-```js title="docusaurus.config.js"
-export default {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
+- [Manual do Ponto Focal;2021](https://drive.google.com/file/d/1cG4Q4kNtwJF23ztf65sXom84tV6YHaZs/view)
 
-## Translate a doc
+- [Manual de Tipificação;2023](https://drive.google.com/file/d/1IEr4_SbD-U5ohxbvkcgezebeGtS3Tg5c/view)
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+- [COMO ME CADASTRAR / SOLICITAR ACESSO;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_ME_CADASTRAR_/_SOLICITAR_ACESSO)
 
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
+- [COMO DISSEMINAR UMA INFORMAÇÃO;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_DISSEMINAR_UMA_INFORMA%C3%87%C3%83O)
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
+- [COMO CONSULTAR UMA MANIFESTAÇÃO;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_CONSULTAR_UMA_MANIFESTA%C3%87%C3%83O)
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+- [COMO REGISTRAR UMA MANIFESTAÇÃO;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_REGISTRAR_UMA_MANIFESTA%C3%87%C3%83O)
 
-## Start your localized site
+- [COMO TIPIFICAR;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_TIPIFICAR)
 
-Start your site on the French locale:
+- [COMO ENCAMINHAR;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_ENCAMINHAR)
 
-```bash
-npm run start -- --locale fr
-```
+- [COMO SOLICITAR PEDIDO DE COMPLEMENTAÇÃO;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_SOLICITAR_PEDIDO_DE_COMPLEMENTA%C3%87%C3%83O)
 
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
+- [COMO COMPLEMENTAR A MANIFESTAÇÃO;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_COMPLEMENTAR_A_MANIFESTA%C3%87%C3%83O)
 
-:::caution
+- [COMO RESPONDER;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_RESPONDER)
 
-In development, you can only use one locale at a time.
+- [COMO PRORROGAR O PRAZO;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_PRORROGAR_O_PRAZO)
 
-:::
+- [COMO ATRIBUIR;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_ATRIBUIR)
 
-## Add a Locale Dropdown
+- [COMO EXTRAIR O ESPELHO DA MANIFESTAÇÃO;2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_EXTRAIR_O_ESPELHO_DA_MANIFESTA%C3%87%C3%83O)
 
-To navigate seamlessly across languages, add a locale dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](./img/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
+- [COMO EXPORTAR LISTA (BANCO DE DADOS);2021](https://wiki.saude.gov.br/ouvidor/index.php/COMO_EXPORTAR_LISTA_(BANCO_DE_DADOS))
