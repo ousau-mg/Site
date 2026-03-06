@@ -7,9 +7,9 @@ import { LinkRow } from '@site/src/components/tabela';
 
 # Relatórios
 
-## Quadrimestrais
+## Trimestrais
 
-<Accordion title="Quadrimestre 2025_3">
+<Accordion title="Trimestre 2025_4">
   <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
     <LinkRow 
       tema="RELATÓRIO" 
@@ -32,13 +32,19 @@ import { LinkRow } from '@site/src/components/tabela';
   </div>
 </Accordion>
 
-<Accordion title="Quadrimestre 2025_2">
+<Accordion title="Trimestre 2025_3">
   <p style={{ color: 'var(--ifm-color-content-secondary)', textAlign: 'center' }}>
     Aguardando publicação dos documentos.
   </p>
 </Accordion>
 
-<Accordion title="Quadrimestre 2025_1">
+<Accordion title="Trimestre 2025_2">
+  <p style={{ color: 'var(--ifm-color-content-secondary)', textAlign: 'center' }}>
+    Aguardando publicação dos documentos.
+  </p>
+</Accordion>
+
+<Accordion title="Trimestre 2025_1">
   <p style={{ color: 'var(--ifm-color-content-secondary)', textAlign: 'center' }}>
     Aguardando publicação dos documentos.
   </p>
