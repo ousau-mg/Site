@@ -5,18 +5,24 @@ Para a instalação e o funcionamento do site via **Docusaurus**, serão necess�
 1.  **Git**: [Download e Instalação](https://git-scm.com/install/windows)
 2.  **Node.js**: [Download e Instalação](https://nodejs.org/pt-br/download) (Recomendado: Versão LTS)
 
-### Passo a passo para clonar e replicar este projeto
+## Passo a passo para replicar este projeto
 
 3. instalação da versão corrente:
+
 ```bash
 npm install --legacy-peer-deps
 ```
-
 4. instalação do módulo de ícones do Docusaurus
 
 ```bash
 npm install @iconify/react --legacy-peer-deps
 ```
+5. instalação do módulo da caixa de busca
+
+```bash
+npm install @easyops-cn/docusaurus-search-local --legacy-peer-deps
+```
+
 
 ## 🛠️ Funcionalidades
 O site apresenta as seguintes integrações e componentes:
