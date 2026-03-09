@@ -34,7 +34,7 @@ O dashboard é exibido através de um componente de iframe integrado:
     allowFullScreen={true}>
   </iframe>
 ```
-🎥 Player de Vídeo
+###🎥 Player de Vídeo
 Componente para exibição de vídeos externos (Ex: YouTube):
 
 ```
@@ -44,7 +44,7 @@ Componente para exibição de vídeos externos (Ex: YouTube):
   <div>
 
 ```
-💬 Sistema de Comentários (Giscus)
+###💬 Sistema de Comentários (Giscus)
 Utilizamos o Giscus para gestão de comentários via GitHub Discussions.
 
 Requisito: O repositório deve ser público.
@@ -59,12 +59,12 @@ Login: O usuário precisa estar logado no GitHub para comentar.
 
 Localização do Código: \src\components\GisusComments.
 
-✨ Ícones (Iconify)
+###✨ Ícones (Iconify)
 Utilizamos a dependência Iconify para a renderização de ícones.
 
 Importante: Certifique-se de que o comando npm install --legacy-peer-deps foi executado com sucesso. O parâmetro --legacy-peer-deps é essencial para evitar conflitos de versões de dependências do React e garantir que os ícones carreguem corretamente no ambiente local.
 
-📝 Sistema de Feedback (Tally)
+###📝 Sistema de Feedback (Tally)
 Implementamos um widget flutuante de Opinião que permite coletar avaliações rápidas (Like/Dislike) e sugestões detalhadas sem tirar o usuário da página atual.
 
 Como funciona a integração:
@@ -84,4 +84,21 @@ Configuração de Notificações:
 Dentro das configurações do formulário no Tally, vá em Settings > Notifications.
 
 Ative as "Email notifications" para receber um aviso em tempo real sempre que alguém enviar uma sugestão.
+
+###🔍 Caixa de busca
+Implementamos uma caixa de busca para encontrar todo o conteúdo da página, podendo ser acessado também via comando `ctrl + k`
+
+Como funciona a integração:
+O mesmo já vem de uma das dependências do Docusaurus, com isso é necessária a instalação via o seguinte código:
+
+```Bash
+npm install @easyops-cn/docusaurus-search-local
+```
+Com isso, para teste local é necessária a execução do código: `npm run build` e `npm run serve`
+
+Resultado:
+
+<img width="998" height="704" alt="Captura de tela 2026-03-09 134534" src="https://github.com/user-attachments/assets/45e5b5c2-0455-4e7b-b323-be312f676e12" />
+
+
 
