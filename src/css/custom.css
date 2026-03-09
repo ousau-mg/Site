@@ -32,3 +32,18 @@
 heroDistance {
   margin-top: 80px; /* Ajuste o valor conforme achar melhor */
 }
+
+/* Otimização da Barra de Busca */
+.navbar__search-input::placeholder {
+  opacity: 0 !important;
+}
+
+/* Garante que o campo de busca tenha um tamanho amigável mesmo vazio */
+.navbar__search-input {
+  min-width: 12rem;
+}
+
+/* Ajuste opcional: destaca a borda ao focar para o usuário saber que está digitando */
+.navbar__search-input:focus {
+  border-color: var(--ifm-color-primary);
+}
