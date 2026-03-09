@@ -1,8 +1,8 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 ---
 
-# Apresentações
+# Apresentações Realizadas
 
 ## 2026
 
@@ -19,3 +19,4 @@ sidebar_position: 6
 -[Geral para ouvidorias implantadas](\img\141125_capacitacao_geralsensibilização_ouvidorias_implantadas.pdf): _Apresentação geral Seos/MG mais voltada para quem já tem ouvidoria_
 
 -[Sensibilização para local que ainda não aderiu aos sistemas de ouvidoria](\img\131125_capacitacao_geral.pdf): _Apresentação geral Seos/MG mais voltada para quem não tem ouvidoria_
+

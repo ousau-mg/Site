@@ -2,11 +2,7 @@
 sidebar_position: 1
 ---
 
-# Nova Ouvidoria
-
-## Cartilhas
-
-[➡ Saiba as informações sobre o certificado Farmácia Cidadã!](https://www.ouvidoriageral.mg.gov.br/farmacia-cidada)
+# Cartilhas
 
 [➡ Saiba o que é uma Ouvidoria Municipal de Saúde!!](/img/o-que-e-ouvidoria.pdf)
 
@@ -18,7 +14,6 @@ sidebar_position: 1
 
 [➡ Saiba as dicas para expandir a atuação das Ouvidorias Municipais de Saúde do Seos/MG!](/img/Dicas_para_expandir.pdf)
 
-[➡ Acesse a Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS](/img/Cartilha-SEOS.pdf)
 
 ## Manual MS
 
