@@ -3,8 +3,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Documentação SEOS',
+  title: 'Ouvidoria de Saúde',
   favicon: 'img/LogoOge.png',
+
+  
 
   future: {
     v4: true,
@@ -64,7 +66,7 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'Seos',
+    
         logo: {
           alt: 'My Site Logo',
           src: 'img/LogoOge.png',
@@ -74,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Ouvidoria de Saúde',
+            label: 'SEOS',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           
