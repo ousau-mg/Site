@@ -7,31 +7,35 @@ import InfoCard from '@site/src/components/InfoCard';
 # Agenda
 Conteúdos relacionados à instalação de ouvidoria no município 
 
-<div className="row">
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:account-plus-outline"
-      title="Próximos eventos"
-      link="./Eventos"
-      linkText="Acompanhe"
-    />
-  </div>
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:play-circle-outline"
-      title="Capacitações"
-      link="./Capacitações"
-      linkText="Acesse"
-    />
-  </div>
-</div>
-<div className="row">
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:account-plus-outline"
-      title="Apresentações"
-      link="./Apresentações"
-      linkText="Veja"
-    />
-  </div>
+<div style={{ 
+  display: 'grid', 
+  gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', 
+  gap: '15px', 
+  alignItems: 'stretch' 
+}}>
+
+<InfoCard 
+  iconName="mdi:calendar-clock"
+  title="Próximos eventos"
+  description="Cronograma de reuniões e eventos técnicos."
+  link="./Eventos"
+  linkText="Acompanhe"
+/>
+
+<InfoCard 
+  iconName="mdi:school-outline"
+  title="Capacitações"
+  description="Datas e links para as próximas formações."
+  link="./Capacitações"
+  linkText="Acesse"
+/>
+
+<InfoCard 
+  iconName="mdi:presentation"
+  title="Apresentações"
+  description="Materiais utilizados em reuniões institucionais."
+  link="./Apresentações"
+  linkText="Veja"
+/>
+
 </div>

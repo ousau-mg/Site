@@ -6,8 +6,6 @@ const config = {
   title: 'Ouvidoria de Saúde',
   favicon: 'img/LogoOge.png',
 
-  
-
   future: {
     v4: true,
   },
@@ -42,7 +40,6 @@ const config = {
     ],
   ],
 
-  // CONFIGURAÇÃO DA BUSCA AUTOMÁTICA (Sem indexContentTree para não dar erro)
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -58,6 +55,7 @@ const config = {
       },
     ],
   ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -66,7 +64,6 @@ const config = {
         respectPrefersColorScheme: true,
       },
       navbar: {
-    
         logo: {
           alt: 'My Site Logo',
           src: 'img/LogoOge.png',
@@ -79,13 +76,10 @@ const config = {
             label: 'SEOS',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
-          
-          // Barra de busca automática
           {
             type: 'search',
             position: 'right',
           },
-
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -95,6 +89,17 @@ const config = {
       },
       footer: {
         style: 'dark',
+        links: [
+          {
+            title: 'Canais de Atendimento',
+            items: [
+              {
+                label: 'Manifeste aqui 📢',
+                href: 'https://ouvidor.saude.gov.br/public/form-web/registrar',
+              },
+            ],
+          },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} SEOS. Built with Docusaurus.`,
       },
       prism: {

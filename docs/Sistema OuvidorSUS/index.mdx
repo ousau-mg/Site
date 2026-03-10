@@ -6,24 +6,27 @@ import InfoCard from '@site/src/components/InfoCard';
 
 # Sistema OuvidorSUS
 Conteúdos relacionados à adesão e operação do sistema OuvidorSUS
+<div style={{ 
+  display: 'grid', 
+  gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', 
+  gap: '20px', 
+  alignItems: 'stretch' 
+}}>
 
-<div className="row">
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:account-plus-outline"
-      title="Adesão e inclusão"
-      description="Orientações para adesão de novos municípios e inclusão de usuários."
-      link="./Adesão e inclusão"
-      linkText="Ver detalhes"
-    />
-  </div>
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:play-circle-outline"
-      title="Operações e tutoriais"
-      description="Vídeos e manuais passo a passo para operação do sistema."
-      link="./Operações e tutoriais"
-      linkText="Ver tutoriais"
-    />
-  </div>
+<InfoCard 
+  iconName="mdi:account-plus-outline"
+  title="Adesão e inclusão"
+  description="Orientações para adesão de novos municípios e inclusão de usuários."
+  link="./Adesão e inclusão"
+  linkText="Ver detalhes"
+/>
+
+<InfoCard 
+  iconName="mdi:play-circle-outline"
+  title="Operações e tutoriais"
+  description="Vídeos e manuais passo a passo para operação do sistema."
+  link="./Operações e tutoriais"
+  linkText="Ver tutoriais"
+/>
+
 </div>

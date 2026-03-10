@@ -2,11 +2,15 @@
 sidebar_position: 2
 ---
 
+
+import { LinkRow } from '@site/src/components/tabela';
+
 # Operações e tutoriais
 
 Como usar as funcinoalidades do sistema OuvidorSUS.
 
 ## Manuais Ministério da Saúde
+
 
 - [Manual perfis Ouvidor, Técnico e atendente;2021](https://drive.google.com/file/d/1gZyCP499Mf8LhWHtJVVesuyPtfD6peJn/view)
 

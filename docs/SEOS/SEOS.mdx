@@ -7,65 +7,59 @@ import InfoCard from '@site/src/components/InfoCard';
 # SEOS
 Menu principal para introdução dos tópicos do SEOS
 
-<div className="row">
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:book-open-variant"
-      title="Contexto"
-      description="A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo..."
-      link="./Contexto"
-      linkText="Acessar"
-    />
-  </div>
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:gavel"
-      title="Base Legal"
-      description="Controle social e proteção ao denunciante."
-      link="./Base Legal"
-      linkText="Acessar"
-    />
-  </div>
-</div>
+<div style={{ 
+  display: 'grid', 
+  gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
+  gap: '20px', 
+  alignItems: 'stretch' 
+}}>
 
-<div className="row">
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:file-document-outline"
-      title="Documentos"
-      description="Cartilhas, Notas Técnicas e outros materiais de interesse."
-      link="./Documentos"
-      linkText="Acessar"
-    />
-  </div>
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:map-legend"
-      title="Mapas"
-      description="Visualização geográfica das ouvidorias. `EM BREVE`"
-      link="./Mapas"
-      linkText="Acessar"
-    />
-  </div>
-</div>
+<InfoCard 
+  iconName="mdi:book-open-variant"
+  title="Contexto"
+  description="A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo..."
+  link="./Contexto"
+  linkText="Acessar"
+/>
 
-<div className="row">
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:chart-bar"
-      title="Relatórios"
-      description="Acompanhamento quadrimestral das manifestações do SEOS."
-      link="./Relatórios"
-      linkText="Acessar"
-    />
-  </div>
-  <div className="col col--6">
-    <InfoCard 
-      iconName="mdi:presentation"
-      title="Apresentações"
-      description="Materiais e apresentações institucionais de 2026."
-      link="./Apresentações"
-      linkText="Acessar"
-    />
-  </div>
+<InfoCard 
+  iconName="mdi:gavel"
+  title="Base Legal"
+  description="Controle social e proteção ao denunciante."
+  link="./Base Legal"
+  linkText="Acessar"
+/>
+
+<InfoCard 
+  iconName="mdi:file-document-outline"
+  title="Documentos"
+  description="Cartilhas, Notas Técnicas e outros materiais de interesse."
+  link="./Documentos"
+  linkText="Acessar"
+/>
+
+<InfoCard 
+  iconName="mdi:map-legend"
+  title="Mapas"
+  description="Visualização geográfica das ouvidorias. EM BREVE"
+  link="./Mapas"
+  linkText="Acessar"
+/>
+
+<InfoCard 
+  iconName="mdi:chart-bar"
+  title="Relatórios"
+  description="Acompanhamento quadrimestral das manifestações do SEOS."
+  link="./Relatórios"
+  linkText="Acessar"
+/>
+
+<InfoCard 
+  iconName="mdi:presentation"
+  title="Apresentações"
+  description="Materiais e apresentações institucionais de 2026."
+  link="./Apresentações"
+  linkText="Acessar"
+/>
+
 </div>
