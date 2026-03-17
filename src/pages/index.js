@@ -33,6 +33,16 @@ export default function Home() {
       <HomepageHeader />
 
       <main>
+
+        {/* VÍDEO MOVIDO PARA CIMA */}
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2rem' }}>
+            <VideoPlayer
+              url="https://www.youtube.com/watch?v=7PBGVKmX2NQ"
+              width="1000px"
+              height="560px"
+            />
+          </div>
+
         <div className="container margin-vert--lg">
           {/* SEÇÃO: OUVIDORIA DE SAÚDE */}
           <section>
@@ -48,14 +58,15 @@ export default function Home() {
             <p>
               Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, levando atendimento presencial à população, aproximando os usuários dos serviços das áreas de atuação desta Ouvidoria.
             </p>
+            
 
             {/* CONTAINER DOS CARDS */}
             <div style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(4, 1fr)',
-              gap: '20px',
-              alignItems: 'stretch',
-              marginTop: '2rem'
+            display: 'grid',
+            gridTemplateColumns: 'repeat(5, 1fr)', // ALTERADO DE 4 PARA 5
+            gap: '15px',                           // Reduzi levemente o gap para caber melhor em telas menores
+            alignItems: 'stretch',
+            marginTop: '2rem'
             }}>
               <InfoCard
                 iconName="mdi:pill"
@@ -66,14 +77,14 @@ export default function Home() {
               />
               <InfoCard
                 iconName="material-symbols:computer-outline-rounded"
-                title="Sistema OuvidorSUS"
+                title="OuvidorSUS"
                 description="alterar"
                 link="/docs/Sistema OuvidorSUS"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:map-add"
-                title="Criação de Ouvidoria"
+                title="Criar Ouvidoria"
                 description="alterar"
                 link="/docs/Nova Ouvidoria"
                 linkText="Acessar"
@@ -85,48 +96,17 @@ export default function Home() {
                 link="/docs/Agenda e capacitações"
                 linkText="Acessar"
               />
+              <InfoCard
+                iconName="arcticons:microsoft-power-bi"
+                title="B.I"
+                description="alterar"
+                link="/docs/SEOS/Relatórios#secao-bi"
+                linkText="Acessar"
+              />
+
+              
             </div>
           </section>
-
-          <hr className="margin-vert--xl" />
-
-          {/* SEÇÃO: DASHBOARDS (BI) */}
-          <section>
-            <Heading as="h1">Observatório OGE/MG</Heading>
-            <div className={styles.iframeContainer}>
-              <iframe
-                src="https://app.powerbi.com/view?r=eyJrIjoiYWU1MTU5NWEtZTY0MS00MzQyLWI3Y2YtNGY4YzhmNTAzMTMyIiwidCI6IjUzMzU2OTg2LTY4OGMtNGNiOS1hZTNhLWU4ZGJmNjkxMWE0MyJ9&pageName=a1b82749ce7d052c043e&pageView=fitToWidth"
-                width="100%"
-                height="900"
-                title="OGE - Observatório"
-                style={{ border: 0, borderRadius: '8px' }}
-                allowFullScreen={true}
-              />
-            </div>
-
-            <Heading as="h1" className="margin-top--lg">BI INTERNO OUSAU - REGIONAIS E MUNICÍPIOS</Heading>
-            <div className={styles.iframeContainer}>
-              <iframe
-                src="https://app.powerbi.com/groups/8b04718b-896a-484d-9808-8ee50f2c0c43/reports/4ae3c542-60ba-4d30-8210-4a7ad3b5fa51/ReportSection33e20d4e9dbd867142ca?experience=power-bi"
-                width="100%"
-                height="900"
-                title="BI Interno"
-                style={{ border: 0, borderRadius: '8px' }}
-                allowFullScreen={true}
-              />
-            </div>
-          </section>
-
-          <hr className="margin-vert--xl" />
-
-          {/* VÍDEO MOVIDO PARA CIMA */}
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2rem' }}>
-            <VideoPlayer
-              url="https://www.youtube.com/watch?v=7PBGVKmX2NQ"
-              width="1000px"
-              height="560px"
-            />
-          </div>
 
           {/* SEÇÃO: FEEDBACK E COMENTÁRIOS */}
           <div style={{ margin: '2rem 0', width: '100%' }}>

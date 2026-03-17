@@ -2,19 +2,62 @@
 sidebar_position: 3
 ---
 
+import { LinkRow } from '@site/src/components/tabela';
+
 # Documentos
 
-[➡ Saiba as informações sobre o certificado Farmácia Cidadã!](https://www.ouvidoriageral.mg.gov.br/farmacia-cidada)
-
-[➡ Acesse a Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS](/img/Cartilha-SEOS.pdf)
+<div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', overflow: 'hidden', marginBottom: '40px' }}>
+  <LinkRow 
+    tema="INFO" 
+    fonte="OGE" 
+    desc="Informações sobre o certificado Farmácia Cidadã" 
+    url="https://www.ouvidoriageral.mg.gov.br/farmacia-cidada" 
+  />
+  <LinkRow 
+    tema="CARTILHA" 
+    fonte="SEOS" 
+    desc="Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS" 
+    url="/img/Cartilha-SEOS.pdf" 
+  />
+</div>
 
 ## Notas Técnicas
 
-#### ➡ [Assédio Moral](\img\Nota_Tecnica_ASSEDIO_MORAL.pdf); [cartilha assédio moral](\img\cartilha-assedio-moral.pdf); [cartilha assédio sexual](\img\cartilha-assedio-sexual.pdf)
-
-#### ➡ [Auditoria do SUS](\img\Nota_Tecnica_3_AUDSUS.pdf)
-
-#### [Controladorias Seccionais/Setoriais e Comissões de Ética](\img\pdf) `EM BREVE!`
-
-#### [Vigilância Sanitária](\img\pdf) `EM BREVE!`
-
+<div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', overflow: 'hidden', marginBottom: '40px' }}>
+  <LinkRow 
+    tema="NOTA TÉCNICA" 
+    fonte="RH" 
+    desc="Assédio Moral" 
+    url="/img/Nota_Tecnica_ASSEDIO_MORAL.pdf" 
+  />
+  <LinkRow 
+    tema="CARTILHA" 
+    fonte="RH" 
+    desc="Cartilha Assédio Moral" 
+    url="/img/cartilha-assedio-moral.pdf" 
+  />
+  <LinkRow 
+    tema="CARTILHA" 
+    fonte="RH" 
+    desc="Cartilha Assédio Sexual" 
+    url="/img/cartilha-assedio-sexual.pdf" 
+  />
+  <LinkRow 
+    tema="NOTA TÉCNICA" 
+    fonte="AUDSUS" 
+    desc="Auditoria do SUS" 
+    url="/img/Nota_Tecnica_3_AUDSUS.pdf" 
+  />
+  <LinkRow 
+    tema="EM BREVE" 
+    fonte="" 
+    desc="Controladorias Seccionais/Setoriais e Comissões de Ética" 
+    url="#" 
+  />
+  <LinkRow 
+    tema="EM BREVE" 
+    fonte="" 
+    desc="Vigilância Sanitária" 
+    url="#" 
+  />
+</div>

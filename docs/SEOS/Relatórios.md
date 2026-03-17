@@ -4,6 +4,7 @@ sidebar_position: 5
 
 import Accordion from '@site/src/components/dobravel';
 import { LinkRow } from '@site/src/components/tabela';
+import Heading from '@theme/Heading';
 
 # Relatórios
 
@@ -49,6 +50,24 @@ import { LinkRow } from '@site/src/components/tabela';
     Aguardando publicação dos documentos.
   </p>
 </Accordion>
+
+---
+
+## B.I {#secao-bi}
+
+<section>
+  <Heading as="h3" className="margin-top--lg">INTERNO OUSAU - REGIONAIS E MUNICÍPIOS</Heading>
+  <div style={{ position: 'relative', overflow: 'hidden', width: '100%', marginBottom: '20px' }}>
+    <iframe
+      src="https://app.powerbi.com/groups/8b04718b-896a-484d-9808-8ee50f2c0c43/reports/4ae3c542-60ba-4d30-8210-4a7ad3b5fa51/ReportSection33e20d4e9dbd867142ca?experience=power-bi"
+      width="100%"
+      height="900"
+      title="BI Interno"
+      style={{ border: 0, borderRadius: '8px' }}
+      allowFullScreen={true}
+    />
+  </div>
+</section>
 
 ---
 

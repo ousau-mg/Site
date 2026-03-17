@@ -73,8 +73,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'SEOS',
+            label: 'Menu Principal',
           },
+          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'search',
