@@ -2,6 +2,9 @@
 sidebar_position: 1
 ---
 
+import { LinkRow } from '@site/src/components/tabela';
+import Heading from '@theme/Heading';
+
 # Contexto
 
 A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo nas questões relacionadas aos serviços prestados pelo Sistema Único de Saúde (SUS).
@@ -12,7 +15,15 @@ Acompanha o tratamento da manifestação até a decisão administrativa final da
 
 Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, levando atendimento presencial à população, aproximando os usuários dos serviços das áreas de atuação desta Ouvidoria.
 
-[➡ Acesse a Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS](/img/Cartilha-SEOS.pdf)
+<div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', overflow: 'hidden', marginBottom: '40px' }}>
+  <LinkRow 
+    tema="CARTILHA" 
+    fonte="SEOS" 
+    desc="Acesse a Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS" 
+    url="/img/Cartilha-SEOS.pdf" 
+  />
+  </div>
+
 
 ## SEOS
 

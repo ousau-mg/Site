@@ -39,12 +39,21 @@ import { LinkRow } from '@site/src/components/tabela';
   />
 </div>
 
-## Manual MS
+# Manuais e Guias
 
 <div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', overflow: 'hidden', marginBottom: '40px' }}>
-  <p style={{ padding: '20px', margin: 0, color: 'var(--ifm-color-content-secondary)' }}>
-   EM BREVE
-  </p>
+  <LinkRow 
+    tema="Manual" 
+    fonte="SUS" 
+    desc="Manual de Ouvidorias dos SUS" 
+    url="https://bvsms.saude.gov.br/bvs/publicacoes/manual_ouvidoria_sus.pdf" 
+  />
+  <LinkRow 
+    tema="Guia" 
+    fonte="SUS" 
+    desc="Guia de Orientações Básicas para Implantação de Ouvidorias do SUS" 
+    url="https://bvsms.saude.gov.br/bvs/publicacoes/guia_orientacoes_implantacao_ouvidorias_sus.pdf" 
+  />
 </div>
 
 
