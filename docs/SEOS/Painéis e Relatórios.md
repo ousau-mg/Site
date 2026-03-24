@@ -8,10 +8,10 @@ import Heading from '@theme/Heading';
 
 # Paineis e relatórios
 
-## B.I {#secao-bi}
+## BI {#secao-bi}
 
 <section>
-  <Heading as="h3" className="margin-top--lg">INTERNO OUSAU - REGIONAIS E MUNICÍPIOS</Heading>
+  <Heading as="h3" className="margin-top--lg"> OUSAU - REGIONAIS E MUNICÍPIOS</Heading>
   <div style={{ position: 'relative', overflow: 'hidden', width: '100%', marginBottom: '20px' }}>
     <iframe
       src="https://app.powerbi.com/view?r=eyJrIjoiNTMzYWQxODQtY2M1Yi00YzM0LThkYzctOGM5NDIwYTM0MDU4IiwidCI6IjUzMzU2OTg2LTY4OGMtNGNiOS1hZTNhLWU4ZGJmNjkxMWE0MyJ9"

@@ -5,37 +5,37 @@ sidebar_position: 1
 import { LinkRow } from '@site/src/components/tabela';
 
 # Cartilhas
-
+{/* DESTIVAR NO PERÍODO ELEITORAL POR CONTA DAS LOGOMARCAS DE GOVERNO */}
 <div style={{ border: '1px solid var(--ifm-color-emphasis-200)', borderRadius: '8px', overflow: 'hidden', marginBottom: '40px' }}>
   <LinkRow 
-    tema="CARTILHA" 
-    fonte="OUSAU" 
+    tema="O QUE É" 
     desc="Saiba o que é uma Ouvidoria Municipal de Saúde" 
     url="/img/o-que-e-ouvidoria.pdf" 
   />
   <LinkRow 
-    tema="SITE" 
-    fonte="OGE" 
-    desc="Saiba o que faz uma Ouvidoria Municipal de Saúde (Verificar Link)" 
-    url="https://www.ouvidoriageral.mg.gov.br/ouvidorias-tematicas/ouvidoria-de-saude" 
+    tema="O QUE FAZ" 
+    desc="Saiba o que faz uma Ouvidoria Municipal de Saúde" 
+    url="/img/o-que-faz.pdf" 
   />
   <LinkRow 
-    tema="CARTILHA" 
-    fonte="OUSAU" 
+    tema="POR QUÊ" 
     desc="Saiba por que implantar uma Ouvidoria Municipal de Saúde" 
     url="/img/por-que-implantar.pdf" 
   />
   <LinkRow 
-    tema="PASSO A PASSO" 
-    fonte="OUSAU" 
+    tema= "PASSO A PASSO" 
     desc="10 passos para criar a Ouvidoria de Saúde no seu município" 
     url="/img/10_passos.pdf" 
   />
   <LinkRow 
-    tema="DICAS" 
-    fonte="SEOS" 
+    tema="ATUAÇÃO" 
     desc="Dicas para expandir a atuação das Ouvidorias Municipais de Saúde" 
     url="/img/Dicas_para_expandir.pdf" 
+  />
+    <LinkRow 
+    tema="CANAIS" 
+    desc="Cartaz de divulgação dos canais para manifestação! " 
+    url="/img/Cartaz-canais.jpg" 
   />
 </div>
 

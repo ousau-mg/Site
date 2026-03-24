@@ -31,3 +31,6 @@ Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, 
 
 - [Resolução Conjunta SES/OGE/Nº 498, de 26 de setembro de 2025](https://portal-antigo.saude.mg.gov.br/images/documentos/RESOLU%C3%87%C3%83O%20CONJUNTA%20SES%20498.pdf): _Dispõe sobre as diretrizes de segurança da informação no âmbito do Sistema Estadual de Ouvidorias do SUS de Minas Gerais (Seos/MG)._
 
+- [Plano Diretor de Regionalização do SUS/MG](https://www.saude.mg.gov.br/estudos-assistenciais-e-regionalizacao/)
+
+- [Relação dos municípios por Unidade Regional de Saúde - divisão administrativa da SES/MG](https://www.saude.mg.gov.br/superintendencias-regionais-de-saude/)
