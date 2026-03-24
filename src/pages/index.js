@@ -50,10 +50,7 @@ export default function Home() {
               A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo nas questões relacionadas aos serviços prestados pelo Sistema Único de Saúde (SUS).
             </p>
             <p>
-              É responsável por receber, registrar e enviar resposta às reclamações, denúncias, solicitações, sugestões e elogios dos cidadãos sobre consultas, exames, medicamentos, cirurgias, vacinação, vigilância sanitária e epidemiológica, dentre outros assuntos.
-            </p>
-            <p>
-              Acompanha o tratamento da manifestação até a decisão administrativa final das demandas dos usuários.
+              É responsável por receber, registrar e enviar resposta às reclamações, denúncias, solicitações, sugestões e elogios dos cidadãos sobre consultas, exames, medicamentos, cirurgias, vacinação, vigilância sanitária e epidemiológica, dentre outros assuntos. Acompanha o tratamento da manifestação até a decisão administrativa final das demandas dos usuários.
             </p>
             <p>
               Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, levando atendimento presencial à população, aproximando os usuários dos serviços das áreas de atuação desta Ouvidoria.
@@ -71,36 +68,36 @@ export default function Home() {
               <InfoCard
                 iconName="mdi:pill"
                 title="SEOS"
-                description="alterar."
+                description="Base legal, contexto, documentos, paineis e relatórios"
                 link="/docs/SEOS"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="material-symbols:computer-outline-rounded"
                 title="OuvidorSUS"
-                description="alterar"
+                description="Adesão e inclusão; operação e tutoriais"
                 link="/docs/Sistema OuvidorSUS"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:map-add"
                 title="Criar Ouvidoria"
-                description="alterar"
-                link="/docs/Nova Ouvidoria"
+                description="Cartilhas, Guias e Manuais"
+                link="/docs/Criar Ouvidoria"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:book-open-variant"
-                title="Agenda"
-                description="alterar"
+                title="Agenda e capacitações"
+                description="Apresentações, Capacitações e Eventos"
                 link="/docs/Agenda e capacitações"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="arcticons:microsoft-power-bi"
-                title="B.I"
-                description="alterar"
-                link="/docs/SEOS/Relatórios#secao-bi"
+                title="Painéis B.I"
+                description="Status de manifestações de ouvidorias de saúde"
+                link="/docs/SEOS/Painéis e Relatórios#secao-bi"
                 linkText="Acessar"
               />
 

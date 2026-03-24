@@ -14,7 +14,7 @@ import Heading from '@theme/Heading';
   <Heading as="h3" className="margin-top--lg">INTERNO OUSAU - REGIONAIS E MUNICÍPIOS</Heading>
   <div style={{ position: 'relative', overflow: 'hidden', width: '100%', marginBottom: '20px' }}>
     <iframe
-      src="https://app.powerbi.com/groups/8b04718b-896a-484d-9808-8ee50f2c0c43/reports/4ae3c542-60ba-4d30-8210-4a7ad3b5fa51/ReportSection33e20d4e9dbd867142ca?experience=power-bi"
+      src="https://app.powerbi.com/view?r=eyJrIjoiNTMzYWQxODQtY2M1Yi00YzM0LThkYzctOGM5NDIwYTM0MDU4IiwidCI6IjUzMzU2OTg2LTY4OGMtNGNiOS1hZTNhLWU4ZGJmNjkxMWE0MyJ9"
       width="100%"
       height="900"
       title="BI Interno"
