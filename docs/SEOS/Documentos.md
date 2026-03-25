@@ -15,9 +15,15 @@ import { LinkRow } from '@site/src/components/tabela';
   />
   <LinkRow 
     tema="CARTILHA" 
-    fonte="SEOS" 
-    desc="Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS" 
-    url="/img/Cartilha-SEOS.pdf" 
+    fonte="RH" 
+    desc="Cartilha Assédio Moral" 
+    url="/img/cartilha-assedio-moral.pdf" 
+  />
+  <LinkRow 
+    tema="CARTILHA" 
+    fonte="RH" 
+    desc="Cartilha Assédio Sexual" 
+    url="/img/cartilha-assedio-sexual.pdf" 
   />
 </div>
 
@@ -31,33 +37,15 @@ import { LinkRow } from '@site/src/components/tabela';
     url="/img/Nota_Tecnica_ASSEDIO_MORAL.pdf" 
   />
   <LinkRow 
-    tema="CARTILHA" 
-    fonte="RH" 
-    desc="Cartilha Assédio Moral" 
-    url="/img/cartilha-assedio-moral.pdf" 
-  />
-  <LinkRow 
-    tema="CARTILHA" 
-    fonte="RH" 
-    desc="Cartilha Assédio Sexual" 
-    url="/img/cartilha-assedio-sexual.pdf" 
-  />
-  <LinkRow 
     tema="NOTA TÉCNICA" 
     fonte="AUDSUS" 
     desc="Auditoria do SUS" 
     url="/img/Nota_Tecnica_3_AUDSUS.pdf" 
   />
   <LinkRow 
-    tema="EM BREVE" 
-    fonte="" 
-    desc="Controladorias Seccionais/Setoriais e Comissões de Ética" 
-    url="#" 
-  />
-  <LinkRow 
-    tema="EM BREVE" 
-    fonte="" 
+    tema="NOTA TÉCNICA" 
+    fonte="VISA" 
     desc="Vigilância Sanitária" 
-    url="#" 
+    url="/img/Nota_Tecnica_VISA.pdf" 
   />
 </div>
