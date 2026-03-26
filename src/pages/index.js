@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <Layout
       title={`Início | ${siteConfig.title}`}
-      description="Ouvidoria de Saúde - OGE">
+      description="Sistema Estadual de Ouvidorias de Saúde - SEOS/MG">
       <HomepageHeader />
 
       <main>
