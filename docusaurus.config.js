@@ -10,7 +10,7 @@ const config = {
     v4: true,
   },
 
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://ousau-mg.github.io/Site/',
   baseUrl: '/',
   organizationName: 'facebook', 
   projectName: 'docusaurus', 
@@ -28,7 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/ousau-mg/Site/edit/main/README.md',
         },
         blog: {
           showReadingTime: true,
@@ -82,7 +82,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ousau-mg/Site',
             label: 'GitHub',
             position: 'right',
           },
