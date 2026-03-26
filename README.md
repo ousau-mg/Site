@@ -1,41 +1,110 @@
-# Website
+# 🚀 Instalação e Configuração
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Para a instalação e o funcionamento do site via **Docusaurus**, serão necessários os seguintes pré-requisitos:
 
-## Installation
+1.  **Git**: [Download e Instalação](https://git-scm.com/install/windows)
+2.  **Node.js**: [Download e Instalação](https://nodejs.org/pt-br/download) (Recomendado: Versão LTS)
 
-```bash
-yarn
-```
+## Passo a passo para replicar este projeto
 
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+3. instalação da versão corrente:
 
 ```bash
-yarn build
+npm install --legacy-peer-deps
 ```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+4. instalação do módulo de ícones do Docusaurus
 
 ```bash
-USE_SSH=true yarn deploy
+npm install @iconify/react --legacy-peer-deps
 ```
-
-Not using SSH:
+5. instalação do módulo da caixa de busca
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm install @easyops-cn/docusaurus-search-local --legacy-peer-deps
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+## 🛠️ Funcionalidades
+O site apresenta as seguintes integrações e componentes:
+
+📊 Apresentação de BI (Power BI)
+O dashboard é exibido através de um componente de iframe integrado:
+
+```
+<iframe 
+    src="https://app.powerbi.com/view?r=eyJrIjoiYWU1MTU5NWEtZTY0MS00MzQyLWI3Y2YtNGY4YzhmNTAzMTMyIiwidCI6IjUzMzU2OTg2LTY4OGMtNGNiOS1hZTNhLWU4ZGJmNjkxMWE0MyJ9&pageName=a1b82749ce7d052c043e" 
+    width="100%" 
+    height="900" 
+    title="OGE - Observatório" 
+    style={{ border: 0 }}
+    allowFullScreen={true}>
+  </iframe>
+```
+### 🎥 Player de Vídeo
+Componente para exibição de vídeos externos (Ex: YouTube):
+
+```
+<div className="container">
+        <VideoPlayer url="https://www.youtube.com/watch?v=7PBGVKmX2NQ" />
+        </VideoPlayer>
+  <div>
+
+```
+### 💬 Sistema de Comentários (Giscus)
+Utilizamos o Giscus para gestão de comentários via GitHub Discussions.
+
+Requisito: O repositório deve ser público.
+
+Configuração de IDs: Para que os comentários funcionem, o componente em src/components/GisusComments deve estar configurado com os IDs corretos do repositório atual:
+
+data-repo-id: ID único do seu repositório no GitHub.
+
+data-category-id: ID da categoria de Discussions onde as mensagens serão salvas.
+
+Login: O usuário precisa estar logado no GitHub para comentar.
+
+Localização do Código: \src\components\GisusComments.
+
+### ✨ Ícones (Iconify)
+Utilizamos a dependência Iconify para a renderização de ícones.
+
+Importante: Certifique-se de que o comando npm install --legacy-peer-deps foi executado com sucesso. O parâmetro --legacy-peer-deps é essencial para evitar conflitos de versões de dependências do React e garantir que os ícones carreguem corretamente no ambiente local.
+
+### 📝 Sistema de Feedback (Tally)
+Implementamos um widget flutuante de Opinião que permite coletar avaliações rápidas (Like/Dislike) e sugestões detalhadas sem tirar o usuário da página atual.
+
+Como funciona a integração:
+Componente React: Localizado em src/components/Feedback/index.js.
+
+Trigger de Popup: O código utiliza o Tally.openPopup para abrir o formulário em modo popover (janela lateral).
+
+Script Externo: O componente injeta automaticamente o script https://tally.so/widgets/embed.js para garantir o funcionamento do widget.
+
+Como receber e gerir os comentários:
+Para que você (ou o novo administrador) receba as sugestões, é necessário configurar o formulário no painel do Tally:
+
+Acesso aos Dados: Faça login em Tally.so. No dashboard, localize o formulário pelo ID (ex: w480k5). Acesse a aba "Submissions" para visualizar a lista de feedbacks recebidos.
+
+Configuração de Notificações:
+
+Dentro das configurações do formulário no Tally, vá em Settings > Notifications.
+
+Ative as "Email notifications" para receber um aviso em tempo real sempre que alguém enviar uma sugestão.
+
+### 🔍 Caixa de busca
+Implementamos uma caixa de busca para encontrar todo o conteúdo da página, podendo ser acessado também via comando `ctrl + k`
+
+Como funciona a integração:
+O mesmo já vem de uma das dependências do Docusaurus, com isso é necessária a instalação via o seguinte código:
+
+```Bash
+npm install @easyops-cn/docusaurus-search-local
+```
+Com isso, para teste local é necessária a execução do código: `npm run build` e `npm run serve`
+
+Resultado:
+
+<img width="998" height="704" alt="Captura de tela 2026-03-09 134534" src="https://github.com/user-attachments/assets/45e5b5c2-0455-4e7b-b323-be312f676e12" />
+
+
+
