@@ -10,32 +10,32 @@ import { LinkRow } from '@site/src/components/tabela';
   <LinkRow 
     tema="O QUE É" 
     desc="Saiba o que é uma Ouvidoria Municipal de Saúde" 
-    url="/img/o-que-e-ouvidoria.pdf" 
+    url="/seos/img/o-que-e-ouvidoria.pdf" 
   />
   <LinkRow 
     tema="O QUE FAZ" 
     desc="Saiba o que faz uma Ouvidoria Municipal de Saúde" 
-    url="/img/o-que-faz.pdf" 
+    url="/seos/img/o-que-faz.pdf" 
   />
   <LinkRow 
     tema="POR QUÊ" 
     desc="Saiba por que implantar uma Ouvidoria Municipal de Saúde" 
-    url="/img/por-que-implantar.pdf" 
+    url="/seos/img/por-que-implantar.pdf" 
   />
   <LinkRow 
     tema= "PASSO A PASSO" 
     desc="10 passos para criar a Ouvidoria de Saúde no seu município" 
-    url="/img/10_passos.pdf" 
+    url="/seos/img/10_passos.pdf" 
   />
   <LinkRow 
     tema="ATUAÇÃO" 
     desc="Dicas para expandir a atuação das Ouvidorias Municipais de Saúde" 
-    url="/img/Dicas_para_expandir.pdf" 
+    url="/seos/img/Dicas_para_expandir.pdf" 
   />
     <LinkRow 
     tema="CANAIS" 
     desc="Cartaz de divulgação dos canais para manifestação! " 
-    url="/img/Cartaz-canais.jpg" 
+    url="/seos/img/Cartaz-canais.jpg" 
   />
 </div>
 

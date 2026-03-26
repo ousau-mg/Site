@@ -17,13 +17,13 @@ import { LinkRow } from '@site/src/components/tabela';
     tema="CARTILHA" 
     fonte="RH" 
     desc="Cartilha Assédio Moral" 
-    url="/img/cartilha-assedio-moral.pdf" 
+    url="/seos/img/cartilha-assedio-moral.pdf" 
   />
   <LinkRow 
     tema="CARTILHA" 
     fonte="RH" 
     desc="Cartilha Assédio Sexual" 
-    url="/img/cartilha-assedio-sexual.pdf" 
+    url="/seos/img/cartilha-assedio-sexual.pdf" 
   />
 </div>
 
@@ -34,18 +34,18 @@ import { LinkRow } from '@site/src/components/tabela';
     tema="NOTA TÉCNICA" 
     fonte="RH" 
     desc="Assédio Moral" 
-    url="/img/Nota_Tecnica_ASSEDIO_MORAL.pdf" 
+    url="/seos/img/Nota_Tecnica_ASSEDIO_MORAL.pdf" 
   />
   <LinkRow 
     tema="NOTA TÉCNICA" 
     fonte="AUDSUS" 
     desc="Auditoria do SUS" 
-    url="/img/Nota_Tecnica_3_AUDSUS.pdf" 
+    url="/seos/img/Nota_Tecnica_3_AUDSUS.pdf" 
   />
   <LinkRow 
     tema="NOTA TÉCNICA" 
     fonte="VISA" 
     desc="Vigilância Sanitária" 
-    url="/img/Nota_Tecnica_VISA.pdf" 
+    url="/seos/img/Nota_Tecnica_VISA.pdf" 
   />
 </div>

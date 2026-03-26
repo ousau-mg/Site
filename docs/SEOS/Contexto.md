@@ -18,7 +18,7 @@ Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, 
     tema="CARTILHA" 
     fonte="SEOS" 
     desc="Acesse a Cartilha do Sistema Estadual de Ouvidorias do SUS - SEOS" 
-    url="/img/Cartilha-SEOS.pdf" 
+    url="/seos/img/Cartilha-SEOS.pdf" 
   />
   </div>
 
