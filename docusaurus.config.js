@@ -11,7 +11,7 @@ const config = {
   },
 
   url: 'https://ousau-mg.github.io/',
-  baseUrl: '/Site/',
+  baseUrl: '/seos/',
   organizationName: 'SEOS', 
   projectName: 'Site', 
   onBrokenLinks: 'warn',
@@ -28,7 +28,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/ousau-mg/Site/edit/main/README.md',
+          editUrl: 'https://github.com/ousau-mg/seos/edit/main/README.md',
         },
         blog: {
           showReadingTime: true,
@@ -82,7 +82,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/ousau-mg/Site',
+            href: 'https://github.com/ousau-mg/seos',
             label: 'GitHub',
             position: 'right',
           },
