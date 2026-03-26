@@ -10,10 +10,10 @@ const config = {
     v4: true,
   },
 
-  url: 'https://ousau-mg.github.io/Site/',
-  baseUrl: '/',
-  organizationName: 'facebook', 
-  projectName: 'docusaurus', 
+  url: 'https://ousau-mg.github.io/',
+  baseUrl: '/Site/',
+  organizationName: 'SEOS', 
+  projectName: 'Site', 
   onBrokenLinks: 'warn',
 
   i18n: {
