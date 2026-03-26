@@ -69,35 +69,35 @@ export default function Home() {
                 iconName="mdi:pill"
                 title="SEOS"
                 description="Base legal, contexto, documentos, paineis e relatórios"
-                link="/Site/docs/SEOS"
+                link="/seos/docs/SEOS"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="material-symbols:computer-outline-rounded"
                 title="OuvidorSUS"
                 description="Adesão e inclusão; operação e tutoriais"
-                link="/Site/docs/Sistema"
+                link="/seos/docs/Sistema"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:map-add"
                 title="Criar Ouvidoria"
                 description="Cartilhas, Guias e Manuais"
-                link="/Site/docs/Criar"
+                link="/seos/docs/Criar"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:book-open-variant"
                 title="Agenda e capacitações"
                 description="Apresentações, Capacitações e Eventos"
-                link="/Site/docs/Agenda"
+                link="/seos/docs/Agenda"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="arcticons:microsoft-power-bi"
                 title="Painéis B.I"
                 description="Status de manifestações de ouvidorias de saúde"
-                link="/Site/docs/SEOS/Paineis#secao-bi"
+                link="/seos/docs/SEOS/Paineis#secao-bi"
                 linkText="Acessar"
               />
 
