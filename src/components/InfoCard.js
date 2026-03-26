@@ -11,12 +11,20 @@ export default function InfoCard({ iconName, title, description, link, linkText,
       display: 'flex',
       flexDirection: 'column',
       height: '100%', 
-      minHeight: '280px', // Isso garante que todos tenham o mesmo tamanho mínimo
+      minHeight: '280px', 
       boxSizing: 'border-box'
     }}>
-      {/* Topo do Card */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '1.25rem', fontWeight: 'bold' }}>
-        <Icon icon={iconName} width="24" height="24" />
+      {/* Topo do Card - AJUSTADO AQUI */}
+      <div style={{ 
+        display: 'flex', 
+        alignItems: 'center', 
+        gap: '10px', 
+        fontSize: '1.25rem', 
+        fontWeight: 'bold',
+        minHeight: '3.5rem', // Define uma altura mínima fixa para o título
+        lineHeight: '1.2'    // Ajusta o espaçamento entre linhas
+      }}>
+        <Icon icon={iconName} width="24" height="24" style={{ flexShrink: 0 }} />
         <span>{title}</span>
       </div>
       

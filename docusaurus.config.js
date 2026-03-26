@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Ouvidoria de Saúde',
+  title: 'Sistema Estadual de Ouvidorias do SUS',
   favicon: 'img/LogoOge.png',
 
   future: {

@@ -59,12 +59,12 @@ export default function Home() {
 
             {/* CONTAINER DOS CARDS */}
             <div style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(5, 1fr)', // ALTERADO DE 4 PARA 5
-            gap: '15px',                           // Reduzi levemente o gap para caber melhor em telas menores
-            alignItems: 'stretch',
-            marginTop: '2rem'
-            }}>
+  display: 'grid',
+  gridTemplateColumns: 'repeat(5, 1fr)',
+  gap: '15px',
+  alignItems: 'stretch', // Isso já ajuda a manter a altura do card igual
+  marginTop: '2rem'
+}}>
               <InfoCard
                 iconName="mdi:pill"
                 title="SEOS"
