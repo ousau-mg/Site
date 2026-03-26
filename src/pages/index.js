@@ -76,28 +76,28 @@ export default function Home() {
                 iconName="material-symbols:computer-outline-rounded"
                 title="OuvidorSUS"
                 description="Adesão e inclusão; operação e tutoriais"
-                link="/Site/docs/Sistema OuvidorSUS"
+                link="/Site/docs/Sistema"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:map-add"
                 title="Criar Ouvidoria"
                 description="Cartilhas, Guias e Manuais"
-                link="/Site/docs/Criar Ouvidoria"
+                link="/Site/docs/Criar"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="mdi:book-open-variant"
                 title="Agenda e capacitações"
                 description="Apresentações, Capacitações e Eventos"
-                link="/Site/docs/Agenda e capacitações"
+                link="/Site/docs/Agenda"
                 linkText="Acessar"
               />
               <InfoCard
                 iconName="arcticons:microsoft-power-bi"
                 title="Painéis B.I"
                 description="Status de manifestações de ouvidorias de saúde"
-                link="/Site/docs/SEOS/Painéis e Relatórios#secao-bi"
+                link="/Site/docs/SEOS/Paineis#secao-bi"
                 linkText="Acessar"
               />
 
