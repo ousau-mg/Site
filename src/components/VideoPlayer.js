@@ -9,8 +9,8 @@ export default function VideoPlayer({ url, isLocal = false }) {
         </video>
       ) : (
         <iframe
-          width="560"
-          height="315"
+          width="500"
+          height="280"
           src={url.replace("watch?v=", "embed/")}
           frameBorder="0"
           allowFullScreen

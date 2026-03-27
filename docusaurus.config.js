@@ -59,7 +59,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Sistema-Estadual-de-Ouvidorias-do-SUS.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },

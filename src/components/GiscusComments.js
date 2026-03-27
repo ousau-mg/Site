@@ -13,7 +13,7 @@ export default function GiscusComments() {
       zIndex: 1 // Garante que ele receba o foco para digitação
     }}>
       <Giscus
-        repo="ousau-mg/Site" // Configuração para o repositório da OSAU
+        repo="ousau-mg/seos" // Configuração para o repositório da OSAU
         repoId="R_kgDORPr6PQ"
         category="Announcements"
         categoryId="DIC_kwDORPr6Pc4C2YMJ"

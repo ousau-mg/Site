@@ -13,12 +13,14 @@ import InfoCard from '@site/src/components/InfoCard';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner, 'text--center')}>
+    /* Reduzi o padding vertical aqui com inline style para ser rápido, 
+       mas o ideal é ajustar no index.module.css */
+    <header className={clsx('hero hero--primary', styles.heroBanner, 'text--center')} style={{padding: '2rem 1rem'}}>
       <div className="container">
-        <Heading as="h1" className="hero__title">
+        <Heading as="h1" className="hero__title" style={{fontSize: '2.5rem'}}>
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        {siteConfig.tagline && <p className="hero__subtitle">{siteConfig.tagline}</p>}
       </div>
     </header>
   );
@@ -33,38 +35,38 @@ export default function Home() {
       <HomepageHeader />
 
       <main>
-
-        {/* VÍDEO MOVIDO PARA CIMA */}
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginBottom: '2rem' }}>
-            <VideoPlayer
-              url="https://www.youtube.com/watch?v=7PBGVKmX2NQ"
-              width="1000px"
-              height="560px"
-            />
+        <div className="container margin-vert--lg">
+          
+          {/* SEÇÃO LADO A LADO: TEXTO E VÍDEO */}
+          <div className="row" style={{ alignItems: 'center', marginBottom: '2rem' }}>
+            <div className="col col--6">
+              <Heading as="h2">Ouvidoria de Saúde</Heading>
+              <p>
+                A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo nas questões relacionadas aos serviços prestados pelo Sistema Único de Saúde (SUS).
+              </p>
+              <p>
+                É responsável por receber reclamações, denúncias e sugestões, acompanhando o tratamento da manifestação até a decisão final. Aproxima os usuários dos serviços através de atendimento presencial e móvel.
+              </p>
+            </div>
+            
+            <div className="col col--6">
+              <div style={{ width: '100%',height: "340px", borderRadius: '8px', overflow: 'hidden'}}>
+                <VideoPlayer
+                  url="https://www.youtube.com/watch?v=7PBGVKmX2NQ"
+                />
+              </div>
+            </div>
           </div>
 
-        <div className="container margin-vert--lg">
-          {/* SEÇÃO: OUVIDORIA DE SAÚDE */}
+          {/* SEÇÃO: SUBMENUS (CARDS) - Agora aparecem logo após o impacto inicial */}
           <section>
-            <p>
-              A Ouvidoria de Saúde é a ponte entre a sociedade e o Governo nas questões relacionadas aos serviços prestados pelo Sistema Único de Saúde (SUS).
-            </p>
-            <p>
-              É responsável por receber, registrar e enviar resposta às reclamações, denúncias, solicitações, sugestões e elogios dos cidadãos sobre consultas, exames, medicamentos, cirurgias, vacinação, vigilância sanitária e epidemiológica, dentre outros assuntos. Acompanha o tratamento da manifestação até a decisão administrativa final das demandas dos usuários.
-            </p>
-            <p>
-              Percorre os municípios mineiros, por meio do programa Ouvidoria Móvel da OGE, levando atendimento presencial à população, aproximando os usuários dos serviços das áreas de atuação desta Ouvidoria.
-            </p>
-            
-
-            {/* CONTAINER DOS CARDS */}
+            <Heading as="h3" style={{ textAlign: 'center', marginBottom: '1.5rem' }}></Heading>
             <div style={{
-  display: 'grid',
-  gridTemplateColumns: 'repeat(5, 1fr)',
-  gap: '15px',
-  alignItems: 'stretch', // Isso já ajuda a manter a altura do card igual
-  marginTop: '2rem'
-}}>
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', /* Responsivo: quebra linha se a tela for pequena */
+              gap: '15px',
+              alignItems: 'stretch',
+            }}>
               <InfoCard
                 iconName="mdi:pill"
                 title="SEOS"
@@ -100,18 +102,17 @@ export default function Home() {
                 link="/seos/docs/SEOS/Paineis#secao-bi"
                 linkText="Acessar"
               />
-
-              
             </div>
           </section>
 
           {/* SEÇÃO: FEEDBACK E COMENTÁRIOS */}
-          <div style={{ margin: '2rem 0', width: '100%' }}>
-            <Feedback />
-          </div>
-
-          <div style={{ width: '100%', minWidth: '100%' }}>
-            <GiscusComments />
+          <div className="row">
+            <div className="col col--12">
+               <Feedback />
+               <div className="margin-top--lg">
+                  <GiscusComments />
+               </div>
+            </div>
           </div>
         </div>
       </main>
