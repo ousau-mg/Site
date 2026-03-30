@@ -75,7 +75,6 @@ const config = {
             position: 'left',
             label: 'Menu Principal',
           },
-          
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             type: 'search',
@@ -90,6 +89,12 @@ const config = {
       },
       footer: {
         style: 'dark',
+        logo: {
+          alt: 'Ouvidoria Geral MG',
+          src: 'img/OGEnovo.png',
+          href: 'https://www.ouvidoriageral.mg.gov.br/',
+          width: 160,
+        },
         links: [
           {
             title: 'Canais de Atendimento',

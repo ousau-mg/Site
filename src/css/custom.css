@@ -47,3 +47,9 @@ heroDistance {
 .navbar__search-input:focus {
   border-color: var(--ifm-color-primary);
 }
+
+.footer__logo {
+  border-radius: 100%;
+  aspect-ratio: 1 / 1; /* Garante que seja um círculo se a imagem for quadrada */
+  object-fit: cover;
+}
