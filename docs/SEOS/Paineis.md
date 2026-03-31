@@ -32,19 +32,19 @@ import Heading from '@theme/Heading';
       tema="RELATÓRIO" 
       fonte="SES" 
       desc="Relatório OUSAU 4º Trimestre 2025 - SES" 
-      url="/img/Relatório-OUSAU-4o-trim_25_SES.pdf" 
+      url="/seos/img/Relatório-OUSAU-4o-trim_25_SES.pdf" 
     />
     <LinkRow 
       tema="RELATÓRIO" 
       fonte="FHEMIG" 
       desc="Relatório OUSAU 4º Trimestre 2025 - FHEMIG" 
-      url="/img/Relatório-OUSAU-4trim_25-FHEMIG.pdf" 
+      url="/seos/img/Relatório-OUSAU-4trim_25-FHEMIG.pdf" 
     />
     <LinkRow 
       tema="RELATÓRIO" 
       fonte="HEMOMINAS" 
       desc="Relatório OUSAU 4º Trimestre 2025 - HEMOMINAS" 
-      url="/img/Relatório-OUSAU-4o-trim_25-HEMOMINAS.pdf" 
+      url="/seos/img/Relatório-OUSAU-4o-trim_25-HEMOMINAS.pdf" 
     />
   </div>
 </Accordion>
